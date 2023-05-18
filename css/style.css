@@ -5,6 +5,7 @@
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #F5F5F5;
+    --dark2: #02245b;
 }
 
 .back-to-top {
@@ -531,7 +532,9 @@ h6,
     justify-content: center;
     color: var(--secondary);
     background: #FFFFFF;
-    border: none;
+    border: 5px var(--dark2) dashed;
+    border-radius: 5px;
+    padding: 3px 10px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .09);
     z-index: 2;
 }
