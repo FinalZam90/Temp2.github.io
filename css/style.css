@@ -516,6 +516,12 @@ h6,
     transition: .5s;
 }
 
+.tarjetascontact{
+    -webkit-box-shadow: 20px 24px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 24px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 20px 24px 9px 0px rgba(0,0,0,0.75);
+}
+
 .service-item:hover .service-text::before {
     top: -55px;
 }
