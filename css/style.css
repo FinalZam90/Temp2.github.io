@@ -647,6 +647,10 @@ h6,
 }
 
 
+  #galleria {
+    height: 600px;
+  }
+
 /*** Team ***/
 .team-item .team-social {
     position: absolute;
