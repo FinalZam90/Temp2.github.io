@@ -1433,7 +1433,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .wrap-slick3-arrows {
   position: absolute;
   z-index: 100;
-  width: 83.333333%;
+  width: 92%;
   right: 0;
   top: calc(50% - 20px);
 }
@@ -1473,7 +1473,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .slick3-dots li {
   display: block;
   position: relative;
-  width: 100%;
+  width: 40px;
   margin-bottom: 27px;
 }
 
@@ -1503,7 +1503,18 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   border-color: #ccc;
 }
 
-
+@media only screen and (max-width: 768px){
+  .wrap-slick3-dots {
+      display: none;
+  }  
+  .flex-sb {
+      justify-content: center;
+  }
+  
+  .wrap-slick3-arrows {
+      width: 99.333333%;
+    }
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS Magnific-Popup ]*/
